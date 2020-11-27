@@ -1,0 +1,40 @@
+{
+  "name": "pradarshana",
+  "version": "1.0.0",
+  "description": "A simple, yet powerful react and material UI based presentation tool",
+  "keywords": [
+    "react",
+    "material-ui",
+    "presentation"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.56",
+    "@versant-digital/react-prismjs": "^2.1.1",
+    "animejs": "3.2.1",
+    "cytoscape": "^3.17.0",
+    "react": "16.13.1",
+    "react-animated-css": "1.2.1",
+    "react-cytoscapejs": "^1.2.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "^3.4.4",
+    "react-syntax-highlighter": "^15.2.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
