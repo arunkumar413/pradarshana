@@ -1,4 +1,4 @@
-## A Material UI and reactjs based presentation tool
+## A Material UI and reactjs based presentation tool (Demo: https://u3g6h.csb.app/ )
 
 1) Put all your slides in the ` slides ` directory.
 
