@@ -1,34 +1,32 @@
+import {
+  Typography,
+  Box,
+  List,
+  ListItem,
+  ListItemText,
+  Paper
+} from "@material-ui/core";
 import React, { useState, useEffect } from "react";
 import { Animated } from "react-animated-css";
-import { Typography, Box } from "@material-ui/core";
 import Brightness1Icon from "@material-ui/icons/Brightness1";
-import ReactPrism from '@versant-digital/react-prismjs';
+import '../styles/textGradients.css'
+import { config } from '../config'
 
 
+const slideStyle = {
+  color: "#fff",
+  fontFamily: 'sans-serif',
+  textAlign: 'center'
+}
 
 export default function Slide4() {
   return (
-    <Box>
-      <Animated animationIn="zoomIn" animationOut="zoomOut" isVisible={true}>
-      <Box p={2} m={4} display="flex" alignItems="flex-start" justifyContent='center'>
+    <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
 
-        <Typography variant="h1" align="center">
-          Use material UI components
-        </Typography>
-        </Box>
+      <div style={slideStyle} >
+        <h3> Slide 4 </h3>
+      </div>
+    </Animated>
 
-
-        <Box p={2} m={3} display="flex" alignItems="flex-start">
-          <Brightness1Icon style={{ padding: 20 }} />
-          <Typography variant="h3">  Use material UI {"<Box> </Box>"} component for styling, aligning, justifying the slide elements </Typography>
-        </Box>
-
-        <Box p={2} m={3} display="flex" alignItems="flex-start">
-          <Brightness1Icon style={{ padding: 20 }} />
-          <Typography variant="h3">  Use material UI Icons for bullets, etc,.</Typography>
-        </Box>
-
-      </Animated>
-    </Box>
   );
 }
