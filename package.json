@@ -15,6 +15,7 @@
     "@versant-digital/react-prismjs": "^2.1.1",
     "animejs": "3.2.1",
     "cytoscape": "^3.17.0",
+    "prismjs": "^1.28.0",
     "react": "16.13.1",
     "react-animated-css": "1.2.1",
     "react-cytoscapejs": "^1.2.1",
@@ -23,6 +24,7 @@
     "react-syntax-highlighter": "^15.2.1"
   },
   "devDependencies": {
+    "babel-plugin-prismjs": "^2.1.0",
     "typescript": "3.8.3"
   },
   "scripts": {

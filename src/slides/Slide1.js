@@ -31,7 +31,7 @@ export default function Slide1() {
   return (
     <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
       <div style={slideTitleStyle} className='slide-title' >
-        <h1> Slide 1 </h1>
+        <h1> A new presentatin tool for a new Web </h1>
       </div>
 
       <div className="slide-content" style={slideContentStyle} >
@@ -46,7 +46,6 @@ export default function Slide1() {
         <h2>&bull; Build education apps, tutorials, documentaiton etc,. </h2>
         <h2>&bull; CSS animations similar to other presentation tools </h2>
         <h2>&bull; Embedd 3d objects</h2>
-        <h2>&bull; SEO friendly</h2>
 
       </div>
 
