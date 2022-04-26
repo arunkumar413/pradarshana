@@ -19,7 +19,7 @@ import webGradients from './styles/webGradients.module.css'
 const config = {
   deckItems: [
 
-    { component: <Slide1 />, title: "Welcome to slide1" },  // title of the slide show up in the footer section 
+    { component: <Slide1 />, title: "A new presentatin tool for a new Web" },  // title of the slide show up in the footer section 
     { component: <Slide2 />, title: "Welcome to Slide2 " },
     { component: <Slide3 />, title: "Welcome to Slide3 " },
     { component: <Slide4 />, title: "Welcome to Slide4 " },
