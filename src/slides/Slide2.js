@@ -68,7 +68,7 @@ export default function Slide2() {
     <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
 
       <div style={slideTitleStyle} >
-        <h3> Slide 2 </h3>
+        <h3> Compose slides using HTML and CSS </h3>
       </div>
 
       <div style={slideContentStyle}>
