@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pradarshana/static/css/main.fe057dd1.chunk.css",
+    "main.js": "/pradarshana/static/js/main.c71aca1b.chunk.js",
+    "main.js.map": "/pradarshana/static/js/main.c71aca1b.chunk.js.map",
+    "runtime-main.js": "/pradarshana/static/js/runtime-main.533e8647.js",
+    "runtime-main.js.map": "/pradarshana/static/js/runtime-main.533e8647.js.map",
+    "static/css/2.aa61572a.chunk.css": "/pradarshana/static/css/2.aa61572a.chunk.css",
+    "static/js/2.9710897c.chunk.js": "/pradarshana/static/js/2.9710897c.chunk.js",
+    "static/js/2.9710897c.chunk.js.map": "/pradarshana/static/js/2.9710897c.chunk.js.map",
+    "index.html": "/pradarshana/index.html",
+    "precache-manifest.7804bf5d2da7f3b59288fdf5e3381032.js": "/pradarshana/precache-manifest.7804bf5d2da7f3b59288fdf5e3381032.js",
+    "service-worker.js": "/pradarshana/service-worker.js",
+    "static/css/2.aa61572a.chunk.css.map": "/pradarshana/static/css/2.aa61572a.chunk.css.map",
+    "static/css/main.fe057dd1.chunk.css.map": "/pradarshana/static/css/main.fe057dd1.chunk.css.map",
+    "static/js/2.9710897c.chunk.js.LICENSE.txt": "/pradarshana/static/js/2.9710897c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.533e8647.js",
+    "static/css/2.aa61572a.chunk.css",
+    "static/js/2.9710897c.chunk.js",
+    "static/css/main.fe057dd1.chunk.css",
+    "static/js/main.c71aca1b.chunk.js"
+  ]
+}
