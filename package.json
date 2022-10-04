@@ -1,5 +1,6 @@
 {
   "name": "pradarshana",
+  "homepage": "https://arunkumar413.github.io/pradarshana",
   "version": "1.0.0",
   "description": "A simple, yet powerful react and material UI based presentation tool",
   "keywords": [
@@ -14,6 +15,7 @@
     "@material-ui/lab": "4.0.0-alpha.56",
     "animejs": "3.2.1",
     "cytoscape": "^3.17.0",
+    "gh-pages": "^4.0.0",
     "prismjs": "^1.28.0",
     "react": "16.13.1",
     "react-animated-css": "1.2.1",
@@ -27,6 +29,8 @@
     "typescript": "3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
