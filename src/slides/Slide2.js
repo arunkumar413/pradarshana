@@ -4,19 +4,18 @@ import {
   List,
   ListItem,
   ListItemText,
-  Paper
+  Paper,
 } from "@material-ui/core";
 import React, { useState, useEffect } from "react";
 import { Animated } from "react-animated-css";
 import Brightness1Icon from "@material-ui/icons/Brightness1";
-import '../styles/textGradients.css'
-import { config } from '../config'
-import Prism from 'prismjs';
+import "../styles/textGradients.css";
+import { config } from "../config";
+import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css";
 
-
-
-const code = ` <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
+const code =
+  ` <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
 <div style={slideTitleStyle} className='slide-title' >
   <h1> A new presentatin tool for a new Web </h1>
 </div>
@@ -36,53 +35,46 @@ const code = ` <Animated animationIn={config.slideAnimationIn} animationOut={con
   <h2>&bull; SEO friendly</h2>
 
 </div>
-</Animated > `.trim()
-
-
+</Animated > `.trim();
 
 const slideContentStyle = {
   color: "#fff",
-  lineHeight: '2rem',
-  fontSize: '1.5rem'
-}
+  lineHeight: "2rem",
+  fontSize: "1.5rem",
+};
 
 const slideTitleStyle = {
   color: "#fff",
-  textAlign: 'center',
-  fontSize: '2.5rem'
-
-
-}
+  textAlign: "center",
+  fontSize: "2.5rem",
+};
 
 export default function Slide2() {
-  const html = Prism.highlight(code, Prism.languages.html, 'html');
-
+  const html = Prism.highlight(code, Prism.languages.html, "html");
 
   useEffect(() => {
     Prism.highlightAll();
   }, []);
 
-
-
   return (
-    <Animated animationIn={config.slideAnimationIn} animationOut={config.slideAnimationOut} isVisible={true}>
+    <Animated
+      animationIn={config.slideAnimationIn}
+      animationOut={config.slideAnimationOut}
+      isVisible={true}
+    >
+      <div style={{ height: 400 }}>
+        <div style={slideTitleStyle}>
+          <h3> Compose slides using HTML and CSS </h3>
+        </div>
 
-      <div style={slideTitleStyle} >
-        <h3> Compose slides using HTML and CSS </h3>
+        <div style={slideContentStyle}>
+          <h2> A typical slide content </h2>
+        </div>
+
+        <pre className="line-numbers">
+          <code className="language-html">{code}</code>
+        </pre>
       </div>
-
-      <div style={slideContentStyle}>
-
-        <h2> A typical slide content </h2>
-      </div>
-
-      <pre className="line-numbers">
-        <code className="language-html">
-          {code}
-
-        </code>
-      </pre>
     </Animated>
-
   );
 }

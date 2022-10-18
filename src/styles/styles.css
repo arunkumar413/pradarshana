@@ -1,40 +1,39 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .presentationContainer {
-    font-family: sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 100px;
-    height: 100vh;
-    padding: 0.5rem;
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 100px;
+  height: 100vh;
+  padding: 0.5rem;
 }
 
-
 .slideItem {
-    grid-row: 1 / 3;
+  grid-row: 1 / 3;
 }
 
 .footer {
-    padding: 0.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1rem;
+  z-index: 99999;
 }
 
 .textGradientsContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-family: sans-serif;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: sans-serif;
 }
